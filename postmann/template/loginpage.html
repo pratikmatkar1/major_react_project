@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <title>ConsultAdd login
+    </title>
+    <link rel="stylesheet" href="loginpage.css" />
+    <link rel="stylesheet" href="{% static 'css/loginpage.css' %}" type="text/css" media="screen">
+
+</head>
+<h1>
+    <div class="image">
+        <img src="{% static 'img/nwq1.png' %}" alt="consultadd">
+    </div>
+
+
+</h1>
+
+<body>
+    <div>
+        <div class="coder">
+            <img src="https://thumbs.dreamstime.com/z/coder-icon-programming-languages-web-development-tre-trendy-flat-style-isolated-blue-background-152104143.jpg" width="650" height="550" alt="developer">
+
+        </div>
+
+
+        <div id="login-box">
+            <form action="{%url 'submitbtn'%}">
+              <div class="left">
+                 <h1>Welcome Back!!</h1>
+
+                 <input type="text" name="email" placeholder="Email"><br><br>
+                 <input type="password" name="password" placeholder="Password"><br><br>
+                 <input type="text" name="Name" placeholder="Name"><br><br>
+                 <input type="submit" name="Sign in" value="Sign in">
+                 <br><br>
+                  <a href="/"> Signup</a>
+                 <br><br>
+                <button onclick="window.location.href='https://www.facebook.com/';" class="loginBtn loginBtn--facebook">
+                    Login with Facebook
+                  </button>
+
+                <button onclick="window.location.href='https://www.google.com/';" class="loginBtn loginBtn--google">
+                    Login with Google
+                  </button>
+              </div>
+            </form>
+        </div>
+
+
+        </div>
+    </div>
+</body>
+
+
+
+
+
+
+
+
+
+</html>

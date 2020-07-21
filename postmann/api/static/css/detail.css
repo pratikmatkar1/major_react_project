@@ -1,0 +1,447 @@
+ body {
+     background-color: rgb(219, 217, 217);
+ }
+ 
+ .topnav {
+     background-color: black;
+     overflow: hidden;
+ }
+ 
+ .uber {
+     position: relative;
+     right: -68em;
+ }
+ /* Style the links inside the navigation bar */
+ 
+ .topnav a {
+     float: left;
+     display: block;
+     color: #f2f2f2;
+     text-align: center;
+     padding: 14px 16px;
+     text-decoration: none;
+     font-size: 17px;
+ }
+ /* Add an active class to highlight the current page */
+ 
+ .active {
+     color: white;
+ }
+ /* Hide the link that should open and close the topnav on small screens */
+ 
+ .topnav .icon {
+     display: none;
+ }
+ /* Dropdown container - needed to position the dropdown content */
+ 
+ .dropdown {
+     float: left;
+     overflow: hidden;
+ }
+ /* Style the dropdown button to fit inside the topnav */
+ 
+ .dropdown .dropbtn {
+     font-size: 17px;
+     border: none;
+     outline: none;
+     color: white;
+     padding: 14px 16px;
+     background-color: inherit;
+     font-family: inherit;
+     margin: 0;
+ }
+ /* Style the dropdown content (hidden by default) */
+ 
+ .dropdown-content {
+     display: none;
+     position: absolute;
+     background-color: #f9f9f9;
+     min-width: 160px;
+     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+     z-index: 1;
+ }
+ /* Style the links inside the dropdown */
+ 
+ .dropdown-content a {
+     float: none;
+     color: black;
+     padding: 12px 16px;
+     text-decoration: none;
+     display: block;
+     text-align: left;
+ }
+ /* Add a dark background on topnav links and the dropdown button on hover */
+ 
+ .topnav a:hover,
+ .dropdown:hover .dropbtn {
+     background-color: #555;
+     color: white;
+ }
+ /* Add a grey background to dropdown links on hover */
+ 
+ .dropdown-content a:hover {
+     background-color: #ddd;
+     color: black;
+ }
+ /* Show the dropdown menu when the user moves the mouse over the dropdown button */
+ 
+ .dropdown:hover .dropdown-content {
+     display: block;
+ }
+ 
+ .chef {
+     height: 200px;
+ }
+ 
+ .coverpp {
+     background-image: url(https://www.levyrestaurants.com/wp-content/uploads/2019/10/Fall-Ingredient-Cover-Photo.gif);
+     height: 450px;
+ }
+ 
+ .smallcv {
+     position: relative;
+     top: 3.5in;
+     right: -1in;
+ }
+ 
+ .pm {
+     position: relative;
+     top: 2.3in;
+     color: white;
+     right: -2.3in;
+ }
+ 
+ .btnbtn-success {
+     border: none;
+     background-color: greenyellow;
+     height: 0.4in;
+     width: 1in;
+     position: relative;
+     left: 12in;
+     font-weight: bold;
+     top: 1in;
+ }
+ 
+ .nav2 {
+     background-color: grey;
+     height: 50pt;
+     top: -1em;
+     position: relative;
+ }
+ 
+ .nav-item {
+     position: relative;
+     list-style: none;
+     word-spacing: 0.5in;
+     column-fill: balance;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+ 
+ .nav-item a {
+     border-style: none;
+     border-color: black;
+     color: azure;
+     background-color: ;
+     float: left;
+     display: block;
+     color: #f2f2f2;
+     text-align: center;
+     padding: 14px 16px;
+     text-decoration: none;
+     font-size: 17px;
+ }
+ 
+ .nav-item a:hover {
+     background-color: #ddd;
+     color: black;
+     display: block;
+ }
+ 
+ .tab-content {
+     background-color: rgb(190, 184, 184);
+     color: black;
+     position: relative;
+     height: 400px;
+     width: 750px;
+     left: 0.5in;
+     font-size: xx-large;
+     box-shadow: 10px;
+ }
+ 
+ .form-control {
+     box-shadow: 0.10in;
+     position: relative;
+     left: 0.5in;
+     width: 500pt;
+     height: 40pt;
+ }
+ 
+ .badgebadge-success {
+     border: none;
+     border-color: black;
+     background-color: rgb(197, 71, 54);
+     font-size: medium;
+ }
+ 
+ .r1 {
+     position: relative;
+     left: 0.5in;
+     color: black;
+     top: 0.2in;
+ }
+ 
+ .m1 {
+     position: relative;
+     left: 0.5in;
+     color: black;
+     top: -0.2in;
+     font-size: medium;
+ }
+ 
+ .box22 {
+     background-color: whitesmoke;
+     border: none;
+     position: relative;
+     top: -2.3in;
+     right: -1in;
+     width: 160px;
+     height: 210px;
+     text-align: center;
+ }
+ 
+ .box23 {
+     background-color: whitesmoke;
+     border: none;
+     position: relative;
+     top: -4.5in;
+     right: -2.8in;
+     width: 160px;
+     height: 210px;
+     text-align: center;
+ }
+ 
+ .box24 {
+     background-color: whitesmoke;
+     border: none;
+     position: relative;
+     top: -6.7in;
+     right: -4.6in;
+     width: 160px;
+     height: 210px;
+     text-align: center;
+ }
+ 
+ .box25 {
+     background-color: whitesmoke;
+     border: none;
+     position: relative;
+     top: -8.9in;
+     right: -6.4in;
+     width: 160px;
+     height: 210px;
+     text-align: center;
+ }
+ 
+ .b1 {
+     position: relative;
+     top: -8in;
+     right: -1in;
+ }
+ 
+ .box30 {
+     background-color: whitesmoke;
+     border: solid;
+     position: relative;
+     top: -8in;
+     right: -0.5in;
+     width: 245px;
+ }
+ 
+ .box31 {
+     background-color: whitesmoke;
+     border: solid;
+     position: relative;
+     top: -11.56in;
+     right: -3.4in;
+     width: 245px;
+ }
+ 
+ .box32 {
+     background-color: whitesmoke;
+     border: solid;
+     position: relative;
+     top: -15.1in;
+     right: -6.3in;
+     width: 245px;
+ }
+ 
+ .q1 {
+     position: relative;
+     top: -14.5in;
+     right: -1in;
+ }
+ 
+ .q2 {
+     color: rgb(96, 97, 96);
+     font-size: large;
+ }
+ 
+ .media-body {
+     position: relative;
+     top: -14.5in;
+     right: -1in;
+     border: none;
+     font-size: large;
+     background-color: rgba(169, 173, 169, 0.658);
+     width: 720px;
+     height: 120px;
+     font-weight: lighter;
+ }
+ 
+ .mb-1 {
+     position: relative;
+     right: -0.30in;
+     top: 0.20in;
+ }
+ 
+ .text-graymb-0 {
+     position: relative;
+     top: -0.09in;
+     color: #555;
+     right: -0.3in;
+ }
+ 
+ .count-numberfloat-right {
+     position: relative;
+     right: -6in;
+     top: -13.7in;
+     background-color: black;
+     border: solid;
+ }
+ /* -- quantity box -- */
+ 
+ .quantity {
+     display: list-item;
+     height: 1.5in;
+     position: relative;
+     top: -28.9in;
+     left: 7in;
+ }
+ 
+ .quantity .input-text.qty {
+     width: 35px;
+     height: 39px;
+     padding: 0 5px;
+     text-align: center;
+     background-color: rgb(255, 255, 255);
+     border: 1px solid #000000;
+ }
+ 
+ .quantity.buttons_added {
+     text-align: left;
+     position: relative;
+     white-space: nowrap;
+     vertical-align: top;
+ }
+ 
+ .quantity.buttons_added input {
+     display: inline-block;
+     margin: 0;
+     vertical-align: top;
+     box-shadow: none;
+ }
+ 
+ .quantity.buttons_added .minus,
+ .quantity.buttons_added .plus {
+     padding: 7px 10px 8px;
+     height: 39px;
+     background-color: #ffffff;
+     border: 1px solid #000000;
+     cursor: pointer;
+ }
+ 
+ .quantity.buttons_added .minus {
+     border-right: 0;
+ }
+ 
+ .quantity.buttons_added .plus {
+     border-left: 0;
+ }
+ 
+ .quantity.buttons_added .minus:hover,
+ .quantity.buttons_added .plus:hover {
+     background: #eeeeee;
+ }
+ 
+ .quantity input::-webkit-outer-spin-button,
+ .quantity input::-webkit-inner-spin-button {
+     -webkit-appearance: none;
+     -moz-appearance: none;
+     margin: 0;
+ }
+ 
+ .quantity.buttons_added .minus:focus,
+ .quantity.buttons_added .plus:focus {
+     outline: none;
+ }
+ 
+ .col-sm-12 {
+     position: relative;
+     top: -28in;
+     text-align: center;
+     border: transparent;
+     background-color: rgb(175, 175, 175);
+     height: 3in;
+ }
+ 
+ .m-3 {
+     position: relative;
+     top: 1.3in;
+     font-size: xx-large;
+ }
+ 
+ .text-black {
+     text-align: center;
+     position: relative;
+     right: 0.3in;
+ }
+ 
+ .text-whitemb-1 {
+     position: relative;
+     right: 0in;
+ }
+ 
+ .goadds {
+     position: relative;
+     top: -54in;
+     right: -9.4in;
+ }
+ 
+ .gooadds {
+     position: relative;
+     top: -50in;
+     right: -9.4in;
+ }
+ 
+ .bbox {
+     background-color: whitesmoke;
+     padding: 5px 20px 15px 20px;
+     border: 1px solid lightgrey;
+     border-radius: 3px;
+     width: 300px;
+     height: 300px;
+     border: solid;
+     font-size: large;
+     position: relative;
+     top: -70.8in;
+     left: 9.3in;
+ }
+ 
+ hr {
+     border: 1px solid grey;
+ }
+ 
+ span.price {
+     float: right;
+     color: rgb(0, 0, 0);
+ }

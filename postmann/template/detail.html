@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Askbootstrap">
+    <meta name="author" content="Askbootstrap">
+    <title>
+        Uber Eats - Food Ordering Website
+    </title>
+    <link rel="icon" href="https://storage.googleapis.com/ubereats/UE-FB-Post.png">
+    <link rel="stylesheet" href="detail.css">
+    <link rel="stylesheet" href="{% static 'css/detail.css' %}" type="text/css" media="screen">
+
+
+
+
+</head>
+
+<body>
+    <div class="topnav" id="myTopnav">
+        <div class="uber"><img src="https://storage.googleapis.com/ubereats/UE-FB-Post.png" width="200px" height="80px" alt=""></div>
+        <a href="/home" class="active">Home</a>
+        <a href="#offers">Offers</a>
+        <a href="#contact">Contact</a>
+        <div class="dropdown">
+            <button class="dropbtn">Restaurants
+        <i class="fa fa-caret-down"></i>
+      </button>
+            <div class="dropdown-content">
+                <a href="/home/listing">Listing</a>
+                <a href="#">Detail+Cart</a>
+                <a href="#">Checkout</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn">Pages
+        <i class="fa fa-caret-down"></i>
+      </button>
+            <div class="dropdown-content">
+                <a href="#">Track Order</a>
+                <a href="#">Invoice</a>
+                <a href="/home/login">Login</a>
+                <a href="/">Register</a>
+                <a href="#">404</a>
+                <a href="#">Extra :)</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn">My Account
+        <i class="fa fa-caret-down"></i>
+      </button>
+            <div class="dropdown-content">
+                <a href="#">Orders</a>
+                <a href="#">Offers</a>
+                <a href="#">Payments</a>
+                <a href="#">Addresses</a>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+    </div>
+
+
+    <section class="restaurant-detailed-banner">
+
+        <div class="restaurant-detailed-header">
+            <div class="container">
+                <div class="coverpp">
+                    <div class="col-md-8">
+                        <div class="restaurant-detailed-header-left">
+                            <img class="smallcv" alt="osahan" src="https://askbootstrap.com/preview/osahan-eat/img/1.jpg" height="100px" width="100px">
+                            <div class="pm">
+                                <h2 class="text-white">Spice Hut Indian Restaurant</h2>
+                                <p class="text-whitemb-1"><i class="icofont-location-pin"></i> 2036 2ND AVE, NEW YORK, NY 10029 <span class="badge badge-success">OPEN</span>
+                                </p>
+                                <p class="text-white mb-0"><i class="icofont-food-cart"></i> North Indian, Chinese, Fast Food, South Indian
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="restaurant-detailed-header-right text-right">
+                            <button class="btnbtn-success" type="button"><i class="icofont-clock-time"></i> 25–35 min
+                        </button>
+
+
+
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+
+    <section class="offer-dedicated-nav bg-white border-top-0 shadow-sm">
+        <div class="container">
+            <div class="row">
+                <div class="nav2">
+
+                    <ul class="nav3" id="pills-tab" role="tablist">
+                        <li class="nav-item">
+                            <a class="active" id="pills-order-online-tab" data-toggle="pill" href="#pills-order-online" role="tab" aria-controls="pills-order-online" aria-selected="true">Order</a>
+
+
+                            <a class="nav-link2" id="pills-gallery-tab" data-toggle="pill" href="#pills-gallery" role="tab" aria-controls="pills-gallery" aria-selected="false">Gallery</a>
+
+
+                            <a class="nav-link3" id="pills-restaurant-info-tab" data-toggle="pill" href="#pills-restaurant-info" role="tab" aria-controls="pills-restaurant-info" aria-selected="false">Restaurant</a>
+
+
+                            <a class="nav-link4" id="pills-book-tab" data-toggle="pill" href="#pills-book" role="tab" aria-controls="pills-book" aria-selected="false">Table</a>
+
+
+                            <a class="nav-link5" id="pills-reviews-tab" data-toggle="pill" href="#pills-reviews" role="tab" aria-controls="pills-reviews" aria-selected="false">Ratings </a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <section class="offer-dedicated-body pt-2 pb-2 mt-4 mb-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="offer-dedicated-body-left">
+                        <div class="tab-content" id="pills-tabContent">
+                            <div class="tab-pane fade show active" id="pills-order-online" role="tabpanel" aria-labelledby="pills-order-online-tab">
+                                <div id="#menu" class="bg-white rounded shadow-sm p-4 mb-4 explore-outlets">
+                                    <div class="fo1">
+                                        <h4 class="r1">Recommended</h4>
+                                        <form class="explore-outlets-search mb-4">
+                                            <div class="input-group">
+                                                <input type="text" placeholder="Search for dishes..." class="form-control">
+
+                                            </div>
+                                        </form>
+                                        <h6 class="m1">Most Popular <span class="badgebadge-success"><i class="icofont-tags"></i> 15% Off All Items </span></h6>
+                                    </div>
+
+
+
+
+
+
+
+
+
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+
+
+                    <div class="tech-slideshow">
+                        <div class="mover-1"></div>
+                        <div class="mover-2"></div>
+
+
+                        <div class="col-md-4 col-sm-6 mb-4 pb-2">
+                            <div class="box22">
+                                <div class="list-card-image">
+
+                                    <div class="favourite-heart text-danger position-absolute"><a href="detail.html"><i class="icofont-heart"></i></a></div>
+
+                                    <a href="detail.html">
+                                        <img src="https://askbootstrap.com/preview/osahan-eat/img/list/1.png" width="160 px" class="img-fluid item-img">
+                                    </a>
+                                </div>
+                                <div class="p-3 position-relative">
+                                    <div class="list-card-body">
+                                        <h3 class="mb-1"><a class="text-black">Pizzas</a></h3>
+                                        <p class="text-gray mb-3">56 items</p>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 col-sm-6 mb-4 pb-2">
+                            <div class="box23">
+                                <div class="list-card-image">
+
+                                    <div class="favourite-heart text-danger position-absolute"><a href="detail.html"><i class="icofont-heart"></i></a></div>
+
+                                    <a href="detail.html">
+                                        <img src="https://askbootstrap.com/preview/osahan-eat/img/list/6.png" width="160 px" class="img-fluid item-img">
+                                    </a>
+                                </div>
+                                <div class="p-3 position-relative">
+                                    <div class="list-card-body">
+                                        <h3 class="mb-1"><a class="text-black">Pasta</a></h3>
+                                        <p class="text-gray mb-3">10 items</p>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <div class="col-md-4 col-sm-6 mb-4 pb-2">
+                            <div class="box24">
+                                <div class="list-card-image">
+
+                                    <div class="favourite-heart text-danger position-absolute"><a href="detail.html"><i class="icofont-heart"></i></a></div>
+
+                                    <a href="detail.html">
+                                        <img src="https://askbootstrap.com/preview/osahan-eat/img/list/7.png" width="160 px" class="img-fluid item-img">
+                                    </a>
+                                </div>
+                                <div class="p-3 position-relative">
+                                    <div class="list-card-body">
+                                        <h3 class="mb-1"><a class="text-black">Chinese</a></h3>
+                                        <p class="text-gray mb-3">20 items</p>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-md-4 col-sm-6 mb-4 pb-2">
+                        <div class="box25">
+                            <div class="list-card-image">
+
+                                <div class="favourite-heart text-danger position-absolute"><a href="detail.html"><i class="icofont-heart"></i></a></div>
+
+                                <a href="detail.html">
+                                    <img src="https://askbootstrap.com/preview/osahan-eat/img/list/9.png" width="160 px" class="img-fluid item-img">
+                                </a>
+                            </div>
+                            <div class="p-3 position-relative">
+                                <div class="list-card-body">
+                                    <h3 class="mb-1"><a class="text-black">Burgers</a></h3>
+                                    <p class="text-gray mb-3">30 items</p>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+
+                </div>
+
+
+
+
+            </div>
+
+
+
+        </div>
+    </section>
+
+    <div>
+
+        <div class="b1">
+            <h1>Best Sellers</h1>
+        </div>
+
+
+
+        <div class="col-md-4 col-sm-6 mb-4 pb-2">
+            <div class="box30">
+                <div class="list-card-image">
+                    <div class="star position-absolute"><span class="badge badge-success"><i class="icofont-star"></i> 3.1 (300+)</span></div>
+                    <div class="favourite-heart text-danger position-absolute"><a href="detail.html"><i class="icofont-heart"></i></a></div>
+                    <div class="member-plan position-absolute"><span class="badge badge-dark">Promoted</span></div>
+                    <a href="detail.html">
+                        <img src="https://askbootstrap.com/preview/osahan-eat/img/list/8.png" width="244 px" class="img-fluid item-img">
+                    </a>
+                </div>
+                <div class="p-3 position-relative">
+                    <div class="list-card-body">
+                        <h3 class="mb-1"><a class="text-black">The Famous Cuisine</a></h3>
+                        <p class="text-gray mb-3">North Indian • American • Pure veg</p>
+                        <p class="text-gray mb-3 time"><span class="bg-light text-dark rounded-sm pl-2 pb-1 pt-1 pr-2"><i class="icofont-wall-clock"></i> 20–25 min</span> <span class="float-right text-black-50"> $250 FOR TWO</span></p>
+                    </div>
+                    <div class="list-card-badge">
+                        <span class="badge badge-success">OFFER</span> <small>65% off | Use Coupon OSAHAN50</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="col-md-4 col-sm-6 mb-4 pb-2">
+            <div class="box31">
+                <div class="list-card-image">
+                    <div class="star position-absolute"><span class="badge badge-success"><i class="icofont-star"></i> 3.1 (300+)</span></div>
+                    <div class="favourite-heart text-danger position-absolute"><a href="detail.html"><i class="icofont-heart"></i></a></div>
+                    <div class="member-plan position-absolute"><span class="badge badge-dark">Promoted</span></div>
+                    <a href="detail.html">
+                        <img src="https://askbootstrap.com/preview/osahan-eat/img/list/6.png" width="244 px" class="img-fluid item-img">
+                    </a>
+                </div>
+                <div class="p-3 position-relative">
+                    <div class="list-card-body">
+                        <h3 class="mb-1"><a class="text-black">Punjabi Dhaba</a></h3>
+                        <p class="text-gray mb-3">North Indian • American • Pure veg</p>
+                        <p class="text-gray mb-3 time"><span class="bg-light text-dark rounded-sm pl-2 pb-1 pt-1 pr-2"><i class="icofont-wall-clock"></i> 20–25 min</span> <span class="float-right text-black-50"> $250 FOR TWO</span></p>
+                    </div>
+                    <div class="list-card-badge">
+                        <span class="badge badge-success">OFFER</span> <small>65% off | Use Coupon OSAHAN50</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="col-md-4 col-sm-6 mb-4 pb-2">
+            <div class="box32">
+                <div class="list-card-image">
+                    <div class="star position-absolute"><span class="badge badge-success"><i class="icofont-star"></i> 3.1 (300+)</span></div>
+                    <div class="favourite-heart text-danger position-absolute"><a href="detail.html"><i class="icofont-heart"></i></a></div>
+                    <div class="member-plan position-absolute"><span class="badge badge-dark">Promoted</span></div>
+                    <a href="detail.html">
+                        <img src="https://askbootstrap.com/preview/osahan-eat/img/list/8.png" width="244 px" class="img-fluid item-img">
+                    </a>
+                </div>
+                <div class="p-3 position-relative">
+                    <div class="list-card-body">
+                        <h3 class="mb-1"><a class="text-black">Bite me Sandwiches</a></h3>
+                        <p class="text-gray mb-3">North Indian • American • Pure veg</p>
+                        <p class="text-gray mb-3 time"><span class="bg-light text-dark rounded-sm pl-2 pb-1 pt-1 pr-2"><i class="icofont-wall-clock"></i> 20–25 min</span> <span class="float-right text-black-50"> $250 FOR TWO</span></p>
+                    </div>
+                    <div class="list-card-badge">
+                        <span class="badge badge-success">OFFER</span> <small>65% off | Use Coupon OSAHAN50</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+    <div class="row">
+        <h1 class="q1">Food Menu <small class="q2">10 ITEMS</small></h1>
+        <div class="col-md-12">
+            <div class="bg-white rounded border shadow-sm mb-4">
+                <div class="gold-members p-3 border-bottom">
+                    <div class="media">
+                        <div class="mr-3"><i class="icofont-ui-press text-danger food-item"></i></div>
+                        <div class="media-body">
+                            <h4 class="mb-1">Chicken Tikka Sub</h4>
+                            <p class="text-graymb-0">$314 - 12" (30 cm)</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="media">
+                    <div class="mr-3"><i class="icofont-ui-press text-danger food-item"></i></div>
+                    <div class="media-body">
+                        <h4 class="mb-1">Cheese corn Roll </h4>
+                        <p class="text-graymb-0">$600</p>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="media">
+                <div class="mr-3"><i class="icofont-ui-press text-success food-item"></i></div>
+                <div class="media-body">
+                    <h4 class="mb-1">Cheese Spinach corn Roll </h4>
+                    <p class="text-graymb-0">$600</p>
+                </div>
+            </div>
+
+
+            <div class="media">
+                <div class="mr-3"><i class="icofont-ui-press text-danger food-item"></i></div>
+                <div class="media-body">
+                    <h4 class="mb-1">Burger </h4>
+                    <p class="text-graymb-0">$500</p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="media">
+            <div class="mr-3"><i class="icofont-ui-press text-danger food-item"></i></div>
+            <div class="media-body">
+                <h4 class="mb-1">Paneer Tikka </h4>
+                <p class="text-graymb-0">$800</p>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="media">
+        <div class="mr-3"><i class="icofont-ui-press text-danger food-item"></i></div>
+        <div class="media-body">
+            <h4 class="mb-1">Taco </h4>
+            <p class="text-graymb-0">$400</p>
+        </div>
+    </div>
+
+
+    <div class="media">
+        <div class="mr-3"><i class="icofont-ui-press text-danger food-item"></i></div>
+        <div class="media-body">
+            <h4 class="mb-1">Chicken Lollypop </h4>
+            <p class="text-graymb-0">$500</p>
+        </div>
+    </div>
+
+
+    <div class="media">
+        <div class="mr-3"><i class="icofont-ui-press text-danger food-item"></i></div>
+        <div class="media-body">
+            <h4 class="mb-1">Paneer Roll </h4>
+            <p class="text-graymb-0">$600</p>
+        </div>
+    </div>
+
+
+    <div class="media">
+        <div class="mr-3"><i class="icofont-ui-press text-danger food-item"></i></div>
+        <div class="media-body">
+            <h4 class="mb-1">Noodles </h4>
+            <p class="text-graymb-0">$780</p>
+        </div>
+    </div>
+
+
+
+    <div class="media">
+        <div class="mr-3"><i class="icofont-ui-press text-danger food-item"></i></div>
+        <div class="media-body">
+            <h4 class="mb-1">Dosa </h4>
+            <p class="text-graymb-0">$200</p>
+        </div>
+    </div>
+
+
+
+    <div class="quantity buttons_added">
+        <input type="button" value="-" class="minus"><input type="number" step="1" min="1" max="" name="quantity" value="1" title="Qty" class="input-text qty text" size="4" pattern="" inputmode=""><input type="button" value="+" class="plus">
+    </div>
+
+    <div class="quantity buttons_added">
+        <input type="button" value="-" class="minus"><input type="number" step="1" min="1" max="" name="quantity" value="1" title="Qty" class="input-text qty text" size="4" pattern="" inputmode=""><input type="button" value="+" class="plus">
+    </div>
+    <div class="quantity buttons_added">
+        <input type="button" value="-" class="minus"><input type="number" step="1" min="1" max="" name="quantity" value="1" title="Qty" class="input-text qty text" size="4" pattern="" inputmode=""><input type="button" value="+" class="plus">
+    </div>
+    <div class="quantity buttons_added">
+        <input type="button" value="-" class="minus"><input type="number" step="1" min="1" max="" name="quantity" value="1" title="Qty" class="input-text qty text" size="4" pattern="" inputmode=""><input type="button" value="+" class="plus">
+    </div>
+    <div class="quantity buttons_added">
+        <input type="button" value="-" class="minus"><input type="number" step="1" min="1" max="" name="quantity" value="1" title="Qty" class="input-text qty text" size="4" pattern="" inputmode=""><input type="button" value="+" class="plus">
+    </div>
+    <div class="quantity buttons_added">
+        <input type="button" value="-" class="minus"><input type="number" step="1" min="1" max="" name="quantity" value="1" title="Qty" class="input-text qty text" size="4" pattern="" inputmode=""><input type="button" value="+" class="plus">
+    </div>
+    <div class="quantity buttons_added">
+        <input type="button" value="-" class="minus"><input type="number" step="1" min="1" max="" name="quantity" value="1" title="Qty" class="input-text qty text" size="4" pattern="" inputmode=""><input type="button" value="+" class="plus">
+    </div>
+    <div class="quantity buttons_added">
+        <input type="button" value="-" class="minus"><input type="number" step="1" min="1" max="" name="quantity" value="1" title="Qty" class="input-text qty text" size="4" pattern="" inputmode=""><input type="button" value="+" class="plus">
+    </div>
+    <div class="quantity buttons_added">
+        <input type="button" value="-" class="minus"><input type="number" step="1" min="1" max="" name="quantity" value="1" title="Qty" class="input-text qty text" size="4" pattern="" inputmode=""><input type="button" value="+" class="plus">
+    </div>
+    <div class="quantity buttons_added">
+        <input type="button" value="-" class="minus"><input type="number" step="1" min="1" max="" name="quantity" value="1" title="Qty" class="input-text qty text" size="4" pattern="" inputmode=""><input type="button" value="+" class="plus">
+    </div>
+
+    <section class="section pt-5 pb-5 text-center bg-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h2 class="m-3">Operate food store or restaurants? <a href="login.html">Work With Us</a></h2>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <div class="goadds">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSl5D7gERP4Xy1BF2RVYyI_tQl-wJPVj-RVHGTZVkWh57rAJbd4&usqp=CAU" width="350px" height="600px" alt="">
+    </div>
+    <div class="gooadds">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSl5D7gERP4Xy1BF2RVYyI_tQl-wJPVj-RVHGTZVkWh57rAJbd4&usqp=CAU" width="350px" height="600px" alt="">
+    </div>
+
+    <div class="col-25">
+        <div class="container">
+            <div class="bbox">
+                <h4>Cart <span class="price" style="color:black"><i class="fa fa-shopping-cart"></i> <b>4 items</b></span></h4>
+                <p>Paneer Roll<span class="price">$200</span></p>
+                <p>Chicken Tikka<span class="price">$500</span></p>
+                <p>Malai Tikka<span class="price">$600</span></p>
+                <p>Burger<span class="price">$200</span></p>
+                <hr>
+                <p><b> Total</b> <span class="price" style="color:black"><b>$1500</b></span></p>
+            </div>
+        </div>
+    </div>
+
+
+
+
+</body>
+
+
+
+
+
+</html>
